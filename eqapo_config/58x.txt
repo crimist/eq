@@ -1,3 +1,3 @@
 Device:   Realtek HD Audio 2nd output Realtek High Definition Audio {7a1dae46-9696-48ac-8cd2-87a279bbe838}
-# Include: 58x_harmen.txt
+Preamp: -4.7 dB
 Include: 58x_custom.txt

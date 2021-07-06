@@ -1,0 +1,11 @@
+Preamp: -5.6 dB
+Filter: ON PK Fc 65 Hz Gain -1.2 dB Q 0.7
+# tweaked oratory1990 harmen
+Filter: ON LSC Fc 26 Hz Gain 3 dB Q 0.71
+Filter: ON LSC Fc 105 Hz Gain 2.5 dB Q 0.71
+Filter: ON PK Fc 155 Hz Gain 1.8 dB Q 0.5
+Filter: ON PK Fc 1300 Hz Gain -3 dB Q 1.5
+Filter: ON HSC Fc 1500 Hz Gain 2.5 dB Q 0.71
+# Filter: ON PK Fc 3550 Hz Gain -3.2 dB Q 2.5
+# Filter: ON PK Fc 5406 Hz Gain -8 dB Q 4.2
+Filter: ON HSC Fc 11000 Hz Gain -2 dB Q 0.71
