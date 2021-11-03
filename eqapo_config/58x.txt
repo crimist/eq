@@ -1,3 +1,14 @@
-Device:   Realtek HD Audio 2nd output Realtek High Definition Audio {7a1dae46-9696-48ac-8cd2-87a279bbe838}
+Device:  Realtek HD Audio 2nd output Realtek High Definition Audio {d2e80e09-be0c-49ba-9525-038bbf368f46}
+# avoid CAudioLimiter https://www.audiosciencereview.com/forum/index.php?threads/ending-the-windows-audio-quality-debate.19438/
+Preamp: -0.2 dB
+# Filter: ON PK Fc 5500 Hz Gain -5 dB Q 4.4963
+# EQ settings
 Preamp: -4.7 dB
+# Include: HD58X_HD600.txt
+# Include: HD58X_HD660S.txt
+# Include: HD58X_HD660S_max.txt
+# Include: HD58X_Sundara.txt
 Include: 58x_custom.txt
+# Include: 58x_harmen.txt
+# Include: 58x_harmen_tweaked.txt
+# Include: 58x_diffuse_field.txt
