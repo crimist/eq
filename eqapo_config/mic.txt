@@ -1,5 +1,8 @@
 Device: Microphone Realtek High Definition Audio {795909e3-529a-4e98-a223-709d66a3a210}
 Filter: ON PK Fc 50 Hz Gain 4 dB Q 0.5356
 Filter: ON PK Fc 1500 Hz Gain 2 dB Q 0.3
-Preamp: 16 dB
-Preamp: 14 dB
+# 1
+# Preamp: 16 dB
+# Preamp: 14 dB
+# 2
+Preamp: 7 dB

@@ -1,10 +1,12 @@
 # preamp: -4.7
 # linear(ish) subbass
-Filter: ON LSC Fc 20 Hz Gain 2 dB Q 0.7959
-Filter: ON LSC Fc 31 Hz Gain 2 dB Q 0.7959
+Filter: ON LSC Fc 10 Hz Gain -5.1 dB Q 0.7959
+Filter: ON LSC Fc 20 Hz Gain 2.7 dB Q 0.7959
+Filter: ON LSC Fc 31 Hz Gain 2.8 dB Q 0.7959
 # slight mid fix 
 Filter: ON HSC 16.3257 dB Fc 1700 Hz Gain 3 dB
 Filter: ON HSC 26.4775 dB Fc 2500 Hz Gain -3 dB
-# upper treble boost
-Filter: ON HSC Fc 6000 Hz Gain 1 dB Q 0.71
-Filter: ON HSC Fc 10000 Hz Gain 1 dB Q 0.71
+# treble fix
+Filter: ON PK Fc 4500 Hz Gain 1 dB Q 4.8402
+Filter: ON PK Fc 5450 Hz Gain -1 dB Q 4.7518
+Filter: ON PK Fc 7000 Hz Gain 3 dB Q 4.8402
