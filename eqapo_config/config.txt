@@ -1,4 +1,14 @@
-Device: all
-Include: 58x.txt
+# input
 Include: mic.txt
-Include:
+# output
+# avoid CAudioLimiter https://www.audiosciencereview.com/forum/index.php?threads/ending-the-windows-audio-quality-debate.19438/
+Preamp: -0.2 dB
+# select DAC
+Device: Headphones USB-C to 3.5mm Headphone Jack Adapter {8390ee07-c0db-4cf9-b98c-d42f819aa810}
+# headphones
+# Include: headphones\HD_58X.txt
+Include: headphones\HD_560S.txt
+# Include: headphones\HD_650.txt
+# iems
+# Include: iems\BL-03.txt
+# Include: iems\ER2XR.txt

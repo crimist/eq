@@ -1,0 +1,3 @@
+# tame 4-6KHz peak
+Filter: ON PK Fc 4500 Hz Gain -1 dB Q 5.2828
+Filter: ON PK Fc 5300 Hz Gain -0.5 dB Q 3.4742

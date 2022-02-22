@@ -1,0 +1,12 @@
+Preamp: -2.1 dB
+# boost subbass
+Filter: ON PK Fc 40 Hz Gain 0.9 dB Q 0.8372
+Filter: ON PK Fc 20 Hz Gain 1.5 dB Q 0.8372
+# boost upper mids
+Filter: ON HSC 16.3257 dB Fc 1700 Hz Gain 1.4 dB
+Filter: ON HSC 26.4775 dB Fc 2600 Hz Gain -1.3 dB
+# tame 5.5KHz spike
+Filter: ON PK Fc 5500 Hz Gain -1 dB Q 4.4963
+# experimental
+Filter: ON PK Fc 5500 Hz Gain -1.5 dB Q 4.4963
+Filter: ON HSC 12 dB Fc 6000 Hz Gain 2 dB

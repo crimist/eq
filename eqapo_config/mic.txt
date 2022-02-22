@@ -6,4 +6,4 @@ Filter: ON HSC 12 dB Fc 2000 Hz Gain 4 dB
 # remove really high treble
 Filter: ON HSC 12 dB Fc 16000 Hz Gain -10 dB
 # gain (I need to buy an interface)
-Preamp: 26 dB
+Preamp: 20 dB

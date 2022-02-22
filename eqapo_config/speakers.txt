@@ -1,7 +1,0 @@
-# select speaker out
-Device: Speakers Realtek High Definition Audio {c65abf1e-c634-4652-854d-a1c882828078}
-# preamp: -?
-Preamp: -10 dB
-# boost subbass (makes subwoofer more neutral)
-Filter: ON LS Fc 50 Hz Gain 5 dB
-Filter: ON LS Fc 100 Hz Gain 5 dB
