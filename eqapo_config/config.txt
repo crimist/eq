@@ -4,7 +4,7 @@ Include: mic.txt
 # avoid CAudioLimiter https://www.audiosciencereview.com/forum/index.php?threads/ending-the-windows-audio-quality-debate.19438/
 Preamp: -0.2 dB
 # select DAC
-Device: Speakers JDS Labs Atom DAC+ {645cd317-ca4f-4cb9-a5a2-08591ad71b18}
+Device: JDS Atom+ JDS Labs Atom DAC+ {7efdaa8c-b56c-46a7-9379-19e0f9edafe1}
 # headphones
 Include: headphones\HD_58X.txt
 # Include: headphones\HD_560S.txt
