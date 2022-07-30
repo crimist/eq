@@ -1,0 +1,14 @@
+Preamp: -6.1 dB
+# boost subbass
+Filter: ON LSC Fc 60 Hz Gain 3 dB Q 0.8
+Filter: ON LSC Fc 90 Hz Gain 3 dB Q 0.8
+# tame treble inconsistencies
+Filter: ON PK Fc 4500 Hz Gain 1.5 dB Q 4.5
+Filter: ON PK Fc 5500 Hz Gain -1.5 dB Q 4.5
+Filter: ON PK Fc 7300 Hz Gain 1 dB Q 2.5
+# experimental
+# boost upper mids
+# Filter: ON HSC 16.5 dB Fc 1300 Hz Gain 0.6 dB
+# Filter: ON HSC 16.5 dB Fc 1700 Hz Gain 0.7 dB
+# Filter: ON HSC 26.5 dB Fc 2600 Hz Gain -0.6 dB
+# Filter: ON HSC 26.5 dB Fc 3000 Hz Gain -0.6 dB

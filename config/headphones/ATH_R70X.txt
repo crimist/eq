@@ -1,0 +1,4 @@
+Preamp: -3 dB
+# experimental
+Filter: ON LSC 17.5 dB Fc 40 Hz Gain 2 dB
+Filter: ON PK Fc 4800 Hz Gain 2 dB Q 5.3563
